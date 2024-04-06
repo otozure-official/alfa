@@ -3,8 +3,8 @@
 import React from 'react';
 import { View, Text, StyleSheet, FlatList } from 'react-native';
 import Tweet from './Tweet'; // 上記で作成したTweetコンポーネントをインポート
-import  Header from './src/Header'
-import Footer from './src/Footer'
+import { Header } from './src/Header'
+import {Footer} from './src/Footer'
 
 const TimelineScreen = () => {
   const tweets = [
